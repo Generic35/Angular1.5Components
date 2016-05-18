@@ -1,3 +1,9 @@
 <div>
     {{model.message}}
 </div>
+<div>
+    <input type="text" ng-model="model.message" />
+    <button ng-click="model.changeMessage()">
+        Click to submit
+    </button>
+</div>

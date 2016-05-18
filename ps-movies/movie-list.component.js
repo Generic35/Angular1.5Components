@@ -7,7 +7,12 @@
         templateUrl: "/ps-movies/movie-list.component.html",
         controllerAs: "model",
         controller: function(){
-            this.message = "hello from the component's controller using model";
+            var model = this;
+            model.message = "old message";
+            
+            model.changeMessage = function(){
+                model.message = "new message";
+            };
         }   
     });
 })();
