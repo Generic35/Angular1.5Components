@@ -8,7 +8,11 @@ describe("The mvoieList component", function() {
         });        
     }));
     
-    it("can be created", function() {
+    it("can be created successfully", function() {
         expect(moviesList).toBeDefined();
+    });
+    
+     it("has a $onInit method implemented", function() {
+        expect(moviesList.$onInit).toBeDefined();
     });
 });
