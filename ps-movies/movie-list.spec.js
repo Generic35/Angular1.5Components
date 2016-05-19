@@ -12,7 +12,7 @@ describe("The mvoieList component", function() {
         expect(moviesList).toBeDefined();
     });
     
-     it("has a $onInit method implemented", function() {
-        expect(moviesList.$onInit).toBeDefined();
+    it("has a $onInit metod implemented", function() {
+       expect(moviesList.$onInit).toBeDefined();
     });
 });
