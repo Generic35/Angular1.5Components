@@ -3,7 +3,10 @@
 
     angular.module("psMovies")
         .component("movieRating", {
-            templateUrl: "/ps-movies/movie-rating.component.html" 
+            templateUrl: "/ps-movies/movie-rating.component.html",
+            bindings: {
+                value: "<"    
+            } 
         });
 
 })();
