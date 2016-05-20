@@ -21,9 +21,9 @@
                 <button class="btn btn-default" ng-click="model.downRating(movie)">
                     <span class="glyphicon glyphicon-minus"></span>
                 </button>
-                <a class="btn btn-default" ng-link="['Details', {id: movie.id}]">
+                <button class="btn btn-default" ng-click="model.goTo(movie.id)">
                     <span class="glyphicon glyphicon-zoom-in"></span>
-                </a>
+                </button>
             </td>
         </tr>
     </table>
