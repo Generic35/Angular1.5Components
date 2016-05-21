@@ -1,6 +1,7 @@
 (function() {
     "use strict";
-
+    
+    //creating psMovie module
     var module = angular.module("psMovies", ["ngComponentRouter"]);
 
     module.value("$routerRootComponent", "movieApp");
