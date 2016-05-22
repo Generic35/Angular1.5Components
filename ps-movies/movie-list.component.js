@@ -29,7 +29,7 @@
         };
         
         model.goTo = function(id){
-            model.$router.navigate(["Details", {id:id}]);
+            model.$router.navigate(["Details", {id:id}, "Overview"]);
         };
     }   
     
