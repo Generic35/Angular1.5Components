@@ -16,6 +16,10 @@
             fetchMovies($http).then(function(movies){ model.movies = movies; }); 
         };   
         
+        model.setRating = function(movie, rating) { 
+            movie.rating = rating;
+        };
+        
         model.upRating = function(movie){
             if(movie.rating < 5){
                 movie.rating += 1;
